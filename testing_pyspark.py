@@ -19,3 +19,5 @@ print("Total Experiments")
 print(log_df.count())
 
 print("no of columns : ", len(log_df.columns))
+
+spark.stop()
