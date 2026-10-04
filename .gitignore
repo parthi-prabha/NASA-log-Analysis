@@ -1,16 +1,98 @@
-# Python-generated files
+# =========================
+# Python
+# =========================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python Packaging
+# =========================
 build/
 dist/
+*.egg-info/
+.eggs/
 wheels/
-*.egg-info
 
-# Virtual environments
-.venv
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
 
+# =========================
+# PySpark / Spark
+# =========================
+.sparkStaging/
+metastore_db/
+derby.log/
+spark-warehouse/
+*.log
 
-# dataset
+# =========================
+# Hadoop / Windows
+# =========================
+hadoop-*/
+winutils.exe
+
+# =========================
+# Raw / Large Dataset Files
+# =========================
 data/*.log
+data/*.csv
+data/*.txt
 
-.env
+# =========================
+# Generated Output
+# =========================
+output/
+*.parquet
+*.parquet/
+*.csv
+
+# =========================
+# Temporary / Cache Files
+# =========================
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# PyCharm / IntelliJ
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Power BI temporary files
+# =========================
+*.pbit
+~$*.pbix
